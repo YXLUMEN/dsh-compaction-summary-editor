@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Compaction summary editor",
+    "description": "Lets you review and rewrite the summary a context compaction puts into the conversation. When DSH compresses older history (automatically or with /compact), a bar appears above the message composer: open it to read the exact text the model currently reads, or press Edit to correct a wrong, missing, or misleading fact. Saving rewrites that checkpoint in the session history, so later model requests read your text; the summary the model originally produced stays in the session log, and Restore original brings it back. Saves leave one small log-only compaction-summary-edit row in the transcript that the model never sees. The bar covers a compaction checkpoint only while it is still live in the open session. The transcript's own compaction marker keeps showing the model-produced summary and moves to the edit position after a save. Saving needs an idle agent; while the agent runs, the bar refuses the rewrite. Only you can rewrite this history: no model tool is added.",
+    "detail": "docs/DETAIL.md"
+  }
+}

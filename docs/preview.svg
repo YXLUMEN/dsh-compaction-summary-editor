@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <rect width="640" height="300" rx="20" fill="#f4f6f9"/>
+  <!-- transcript hint above -->
+  <rect x="120" y="34" width="400" height="40" rx="12" fill="#ffffff" stroke="#d3dbe5" stroke-width="2"/>
+  <rect x="140" y="50" width="150" height="8" rx="4" fill="#d3dbe5"/>
+  <!-- summary bar -->
+  <rect x="120" y="96" width="400" height="40" rx="14" fill="#ffffff" stroke="#c3cedb" stroke-width="2"/>
+  <rect x="140" y="110" width="14" height="2.5" rx="1.25" fill="#5b7089"/>
+  <rect x="140" y="115" width="10" height="2.5" rx="1.25" fill="#5b7089"/>
+  <rect x="140" y="120" width="6" height="2.5" rx="1.25" fill="#5b7089"/>
+  <rect x="166" y="112" width="96" height="9" rx="4.5" fill="#5b7089"/>
+  <rect x="274" y="113" width="120" height="7" rx="3.5" fill="#c9d3df"/>
+  <circle cx="486" cy="116" r="7" fill="#e7edf5"/>
+  <path d="M482.5 119.5l.4-2.2 3.8-3.8 1.6 1.6-3.8 3.8z" fill="#247bbf"/>
+  <circle cx="498" cy="116" r="7" fill="#e7edf5"/>
+  <path d="M494.5 113.5l3.5 3.5 3.5-3.5" fill="none" stroke="#63758c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- expanded summary body -->
+  <rect x="120" y="136" width="400" height="106" rx="14" fill="#ffffff" stroke="#c3cedb" stroke-width="2"/>
+  <rect x="140" y="152" width="150" height="8" rx="4" fill="#c9d3df"/>
+  <rect x="140" y="170" width="330" height="6" rx="3" fill="#dde4ec"/>
+  <rect x="140" y="182" width="310" height="6" rx="3" fill="#dde4ec"/>
+  <rect x="140" y="194" width="336" height="6" rx="3" fill="#dde4ec"/>
+  <rect x="140" y="206" width="220" height="6" rx="3" fill="#dde4ec"/>
+  <rect x="140" y="218" width="120" height="6" rx="3" fill="#dde4ec"/>
+  <!-- composer -->
+  <rect x="120" y="256" width="400" height="30" rx="12" fill="#ffffff" stroke="#b7c3d2" stroke-width="2"/>
+  <rect x="140" y="268" width="140" height="6" rx="3" fill="#e0e5ed"/>
+  <circle cx="496" cy="271" r="9" fill="#e7edf5"/>
+  <path d="M496 266v10m-4-6 4-4 4 4" fill="none" stroke="#63758c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

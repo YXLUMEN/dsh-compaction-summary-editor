@@ -1,0 +1,57 @@
+{
+  "name": "dsh-compaction-summary-editor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Review and rewrite the summary a context compaction landed in the conversation.",
+  "license": "MIT",
+  "author": "YXLUMEN (https://github.com/YXLUMEN)",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "compaction",
+    "context",
+    "summary"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YXLUMEN/dsh-compaction-summary-editor.git"
+  },
+  "homepage": "https://github.com/YXLUMEN/dsh-compaction-summary-editor#readme",
+  "bugs": {
+    "url": "https://github.com/YXLUMEN/dsh-compaction-summary-editor/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.3 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
