@@ -1,6 +1,6 @@
 {
   "name": "dsh-compaction-summary-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Review and rewrite the summary a context compaction landed in the conversation.",
   "license": "MIT",
